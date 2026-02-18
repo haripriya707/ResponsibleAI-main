@@ -1,0 +1,12 @@
+{
+    "algorithm": "<class 'stable_baselines3.ppo.ppo.PPO'>",
+    "algorithm_params": "{'learning_rate': '0.0003', 'n_steps': '2048', 'batch_size': '64', 'n_epochs': '10', 'gamma': '0.99', 'gae_lambda': '0.95', 'clip_range': '0.2', 'ent_coef': '0.05'}",
+    "state": "['steer', 'throttle', 'speed', 'waypoints', 'traffic_light_state', 'traffic_light_dist']",
+    "vae_model": "vae_64",
+    "action_smoothing": "0.5",
+    "reward_fn": "traffic_light_reward",
+    "reward_params": "{'early_stop': 'True', 'min_speed': '20.0', 'max_speed': '35.0', 'target_speed': '25.0', 'max_distance': '3.0', 'max_std_center_lane': '0.4', 'max_angle_center_lane': '90', 'penalty_reward': '-10'}",
+    "obs_res": "(160, 80)",
+    "seed": "100",
+    "wrappers": "[]"
+}
